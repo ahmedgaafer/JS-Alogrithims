@@ -1,5 +1,5 @@
-const Graph = require('./Graph');
+const graphAlgo = require('./Graph');
 
 module.exports = {
-    Graph
+    graphAlgo
 }
