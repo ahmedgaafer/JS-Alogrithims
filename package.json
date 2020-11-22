@@ -1,0 +1,22 @@
+{
+  "name": "js-alogrithims",
+  "version": "1.0.0",
+  "description": "JavaScript package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedgaafer/JS-Alogrithims.git"
+  },
+  "author": "AhmedS.Gaafer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmedgaafer/JS-Alogrithims/issues"
+  },
+  "homepage": "https://github.com/ahmedgaafer/JS-Alogrithims#readme",
+  "dependencies": {
+    "@ahmeds.gaafer/js-data-structures": "^1.2.0"
+  }
+}
