@@ -30,7 +30,7 @@ $ npm install js-alogrithims
 
 > this package is dependent on another package that I made that includes all of the data structures that I used. To avoid bugs use the pre installed dependency <a href="https://www.npmjs.com/package/@ahmeds.gaafer/js-data-structures">JS-Data-Structures</a> package for all of the data structures you want.
 
-> the graph is implemented with adjacency map -same as adjacency map but using maps instead of lists in the edges- "this affects the order of the graph algorithms."
+> the graph is implemented with adjacency map -same as adjacency list but using maps instead of lists in the edges- "this affects the order of the graph algorithms."
 
 ### BFS:
 
