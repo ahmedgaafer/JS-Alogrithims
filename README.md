@@ -72,7 +72,9 @@ Graph contains 6 vertcies.
 
 */
 
-const path = graphAlgo.BFS(g.graph, 1, 6);
+const ret = graphAlgo.BFS(g.graph, 1, 6);
+let path = ret[0];
+let visited = ret[1];
 
 console.log(path); // logs => [ '1', '4', '5', '6' ]
 
@@ -118,7 +120,9 @@ Graph contains 6 vertcies.
 
 */
 
-const path = graphAlgo.DFS(g.graph, 1, 6);
+const ret = graphAlgo.DFS(g.graph, 1, 6);
+let path = ret[0];
+let visited = ret[1];
 
 console.log(path); // logs => [ '1', '4', '5', '6' ]
 ```
