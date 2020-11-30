@@ -40,7 +40,7 @@ module.exports = {
             queue.pop();
 
             let u = heapNode[0];
-           if(!visited.includes(u) ) visited.push(u);
+            if(!visited.includes(u) ) visited.push(u);
             if(u == end){
                 let path = [end];
                 let child = end;
