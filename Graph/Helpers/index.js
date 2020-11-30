@@ -41,7 +41,6 @@ module.exports = {
 
             let u = heapNode[0];
            if(!visited.includes(u) ) visited.push(u);
-
             if(u == end){
                 let path = [end];
                 let child = end;
@@ -56,14 +55,12 @@ module.exports = {
 
             for(const nei in g[u]){
                 let v = Number(nei);
-                let Distance = isA ? h(v, end): 0;
-               
+                let Distance = isA ? h(v, end): 0; 
                 if(dist[u] + 1 < dist[v]){
                     dist[v] = dist[u] + 1 ;
                     queue.push([v, dist[v] + Distance]);
                     parent[v] = u
-                    if(!visited.includes(v) ) visited.push(v);
-                  
+                    if(!visited.includes(v) ) visited.push(v);           
                 }
                 
             }
