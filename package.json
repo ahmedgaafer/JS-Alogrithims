@@ -1,6 +1,6 @@
 {
   "name": "js-alogrithims",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "JavaScript package",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ahmedgaafer/JS-Alogrithims#readme",
   "dependencies": {
-    "@ahmeds.gaafer/js-data-structures": "^1.2.0"
+    "@ahmeds.gaafer/js-data-structures": "^1.2.1"
   }
 }
