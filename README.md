@@ -1,4 +1,4 @@
-# JavaScript Data Structures
+# JavaScript Algorithims
 
 <p align="">
   <a href="#"> <img src="https://img.shields.io/badge/testing-false-red"> </a>
