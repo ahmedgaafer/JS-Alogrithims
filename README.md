@@ -20,8 +20,8 @@ $ npm install js-alogrithims
 
 - [X] <a href="#BFS">BFS</a>
 - [X] <a href="#DFS">DFS</a>
-- [ ] <a href="#">Dijkstra</a>
-- [ ] <a href="#">AStar</a>
+- [X] <a href="#">Dijkstra</a>
+- [X] <a href="#">AStar</a>
 
 ## Usage:
 
